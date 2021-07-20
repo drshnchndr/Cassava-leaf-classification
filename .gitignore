@@ -1,0 +1,6 @@
+kaggle.json
+Xception_model2.h5
+*.ipynb_checkpoints
+input/test_images
+input/train_images
+static/*.jpg
