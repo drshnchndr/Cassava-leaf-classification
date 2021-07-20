@@ -6,9 +6,9 @@ import json
 
 app = Flask(__name__)
 
-model = load_model('./input')
+model = load_model('/input/Xception_model.h5')
 
-with open("./input/label_num_to_disease_map.json") as f:
+with open("/input/label_num_to_disease_map.json") as f:
     class_map = json.load(f)
 
 class_map2 ={int(k):v for k,v in class_map.items()}
@@ -32,7 +32,7 @@ def get_output():
 	if request.method == 'POST':
 		img = request.files['my_image']
 
-		img_path = "./static/" + img.filename	
+		img_path = "/static/" + img.filename	
 		img.save(img_path)
 
 		p = predict_cassava(img_path)
