@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'xception-cassava'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_2cb0e7290ca145dbb463529b00ce59dc }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_bae1150a9cfe4500a4ba6becfd720805 }}
