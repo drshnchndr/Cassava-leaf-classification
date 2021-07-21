@@ -6,7 +6,7 @@ import json
 
 app = Flask(__name__)
 
-model = load_model('input/Xception_model.h5')
+model = load_model('input')
 
 with open("input/label_num_to_disease_map.json") as f:
     class_map = json.load(f)
