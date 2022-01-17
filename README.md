@@ -16,7 +16,16 @@ Classify each Cassava image into four disease categories or a fifth category ind
 - Healthy
 
 ### MLOps Pipeline
+![](input/Cassava_MLOps.png)
+
+### URL
+Click here for [Deployed on Azure](https://cassava-classification.azurewebsites.net/ )
 
 
+## ****** Closed the server due to the end of free trial period. ******
 
+### Working snapshots
+![](input/landing_page.png)
+
+![](input/submit_page.png)
 
